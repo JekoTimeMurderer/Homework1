@@ -1,0 +1,50 @@
+*
+{	box-sizing:border-box;   /*Все паддинги не влияют на размеры блока*/
+}
+
+
+body{
+
+background-color: #eeeeee;
+/*padding-bottom: 45px;*/
+line-height: 40px;
+font-family: Tahoma, Arial;
+
+}
+
+.border{
+
+min-height: 751px; /*Меньше чем 751 не будет, но больше может быть(из-за контента)*/
+width: 511px;
+margin:5px auto;                   
+margin-bottom: 45px;               
+background-color: #ffffff;
+padding: 52px 49px 67px 49px;
+
+}
+
+.content{
+/*background-color: green;*/
+/*margin:52px 49px 67px 49px;*/
+	
+}
+
+h1, .photo{
+	text-align: center;
+}
+
+.photo{
+	padding-top:20px;
+
+}
+
+.photo img{
+width: 120px;
+border-radius: 100%;
+text-align: center;
+}
+
+p{
+font-size: 18px;
+padding-top: 10px;
+}
