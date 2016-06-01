@@ -1,0 +1,58 @@
+.first1{
+	text-decoration: underline;
+	color: red;
+}
+
+
+.first2{
+	text-decoration: underline;
+	color: green;
+}
+
+
+.first3{
+	color: blue;
+	text-decoration: underline;
+}
+
+
+.red{
+	border: 1px solid black;
+	border-radius: 30%;
+	padding: 1px;
+	background: red;
+	color: white;
+}
+
+
+.green{
+	border: 1px solid black;
+	border-radius: 30%;
+	background: green;
+	padding: 1px;
+	color: white;
+}
+
+
+.blue{
+	border: 1px solid black;
+	border-radius: 30%;
+	padding: 1px;
+	background: blue ;
+	color: white;
+}
+
+
+#red:checked~.red{
+	display: none;
+}
+
+
+#green:checked~.green{
+	display: none;
+}
+
+
+#blue:checked~.blue{
+	display: none;
+}

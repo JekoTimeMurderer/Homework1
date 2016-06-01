@@ -1,0 +1,70 @@
+.container{
+width: 609px;
+height: 777px;
+font-weight: 30px;
+}
+
+
+.container__caption{
+	text-align: right;
+	color: orange;
+}
+
+
+.container__paragraph:first-letter{
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+.container__word{
+	background: green;
+	color: white;
+}
+
+
+.container__caption1{
+	color: orange;
+}
+
+
+.container__heading{
+font-weight: bold;
+}
+
+
+.container__fruits-list1{
+	color:silver;
+}
+
+
+.container__vegetables-list{
+color: red;
+}
+
+
+.container__fruits-list2{
+	color: green;
+}
+
+
+.container__caption2{
+color: blue;
+}
+
+
+.container__object{
+	font-weight: bold;
+}
+
+
+.container__name{
+	color: orange;
+}
+
+
+.container__number{
+background: green;
+color: white;
+}

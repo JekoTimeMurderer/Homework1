@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #555555;
+	-webkit-filter: blur(1.4px);
+}
+
+
+.sivtsev{	
+	margin: 0 auto;
+	margin-top: -100px;
+	width: 410px;
+	letter-spacing: 5px;
+}
+
+
+.sivtsev__sight01{
+	letter-spacing: 78px;
+	font-size: 96px;
+}
+
+
+.sivtsev__sight02{
+	letter-spacing: 25px;
+	font-size: 87px;
+}
+
+
+.sivtsev__sight03{
+	letter-spacing: 3px;
+	font-size: 79px;
+}
+
+
+.sivtsev__sight04{
+	letter-spacing: 2px;
+	font-size: 70px;
+}
+
+
+.sivtsev__sight05{
+	font-size: 60px;
+}
+
+
+.sivtsev__sight06{
+	letter-spacing: 3px;
+	font-size: 54px;
+}
+
+
+.sivtsev__sight07{
+	letter-spacing: 10px;
+	font-size: 43px;
+}
+
+
+.sivtsev__sight08{
+	letter-spacing: 10px;
+	font-size: 33px;
+-webkit-filter: blur(0.5px);	
+}
+
+
+.sivtsev__sight09{
+	letter-spacing: 15.5px;
+	font-size: 23px;
+	-webkit-filter: blur(1px);	
+}
+
+
+.sivtsev__sight10{
+	letter-spacing: 15.5px;
+	font-size: 16px;
+	-webkit-filter: blur(1.3px);
+}
+
+
+.sivtsev__uline{
+	border-bottom: 1px solid red;
+	width: 350px;
+	opacity: 0.8;
+}
+
+
+.sivtsev__sight11{
+	letter-spacing: 17.5px;
+	font-size: 12px;
+	-webkit-filter: blur(1.2px);
+}
+
+
+.sivtsev__sight12{
+	letter-spacing: 19.5px;
+	font-size: 9px;
+	-webkit-filter: blur(1.5px);
+
+}

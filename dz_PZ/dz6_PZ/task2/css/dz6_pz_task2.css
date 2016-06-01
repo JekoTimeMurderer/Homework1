@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+
+.container{
+	min-height: 315px;
+	padding: 59px 188px 78px 120px;
+	background-image: url(../img/task2-—-копия.jpg);
+	background-size: 100%;
+}
+
+
+.container__caption{
+	padding-bottom: 45px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #2f689b;
+}
+
+
+.container__word{
+font-size: 40px;
+color: #ee8129;
+}
+
+
+.container__img-response{
+	float: left;   /*Обтекание слева*/
+	margin-right: 26px;
+}	
+
+
+.container__form-response{
+	float: left;
+	min-height: 99px;
+	width: 364px;
+	padding: 15px;
+	margin-right: 41px;
+	font-size: 14px;
+	background-color: #f7f7f7;
+	position: relative;
+}
+
+
+.container__triangle-response{
+	width: 0;
+	height: 0;
+	border: 15px dotted;
+	border-color: transparent #f7f7f7 transparent transparent;
+	position: absolute;
+	top: 33px;
+	left: -30px;
+}
+
+
+.container__header-response{
+	border-bottom: 1px dotted;
+}
+
+
+.container__name-response{
+	position: relative;
+	bottom: 8px;
+	color: blue;
+	font-style: italic;
+}
+
+
+.container__customer-response{
+	float: right;
+	position: relative;
+	bottom: 8px;
+	color: blue;
+	font-style: italic;
+}
+
+
+.container__text-response{
+	padding-top: 7px;
+}
+
+
+.container__form--soul{
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+

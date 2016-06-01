@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	/*font-family: impact;*/
+}
+
+
+.border{
+display: inline-block;
+margin: 50px auto;
+width: 295px;
+/*min-height: 467px;*/
+padding: 1px 4px 4px 4px;
+border-radius: 5px;
+background-color: #ee8129;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+z-index: 500;
+position: relative;
+left:40px;
+}
+
+
+.border__first{
+margin: 24px auto;
+text-align: center;
+text-transform: uppercase;
+font-size: 25px;
+color: white;
+}
+
+
+.border__container{
+	/*width: 287px;*/
+	min-height: 386px;
+	padding-top: 22px;           /*Отступ для iconic graphics*/
+	background-color: white;
+}
+
+
+.border__second{
+padding-bottom: 12px;          /*Отступ для 25*/
+text-align: center;
+text-transform: uppercase;
+font-size: 24px;
+}
+
+
+.border__third{
+	padding-bottom: 19px;        /*Отступ для списка*/
+	text-align: center;
+	font-size: 73px;
+	font-weight: bold;
+}
+
+
+.border__sup{
+	position: relative;
+	bottom: 10px;
+	right: 8px;
+	font-size: 25px;
+}
+
+
+.border__sub{
+	position: relative;
+	font-size: 21px;
+}
+
+
+.border__list{
+	width: 260px;
+	margin-left: 14px;
+	margin-right: 14px;
+	padding-bottom: 18px;        /*Отступ для кнопки*/
+	list-style: none;
+}
+
+
+.border__li_background1,
+.border__li_background2{
+	padding: 3px 10px 8px 0px;
+	margin-top: 2px;
+}
+
+
+.border__li_background1{
+	background-color: #edf5fd;
+}
+
+
+.border__li_background2{
+	background-color: #f5f5f6;
+}
+
+
+.border__img{
+	margin-right: 17px;
+	margin-left: 34px;
+}
+
+
+.border__enroll_today{
+	width: 250px;
+	min-height: 38px;
+	margin-right: 18px;
+	margin-left: 18px;
+	border-bottom: 3px solid #b3560b;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: #ee8129;
+}
+
+
+.border__link{
+display: inline-block;
+margin-top: 10px;
+text-decoration: none;
+color: white;
+}
+
+
+.border__enroll_today:active{
+	border-bottom: none;
+}
+
+
+.border--blue{
+	position: relative;
+	top: 1px;
+	left:50px;
+	z-index: 100;
+	background-color: #37c2d3;
+	padding: 0;
+	box-shadow:-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+
+.border--blue .border__enroll_today{
+	background-color: #3371a6;
+}
+
+
+.border--blue .border__first,
+.border--green .border__first{
+	margin: 18px auto;
+}
+
+
+.border--blue .border__container,
+.border--green .border__container{
+	min-height: 376px;
+}
+
+
+.border--blue .border__enroll_today,
+.border--green .border__enroll_today{
+	border-bottom-color: #16436a;
+}
+
+.border--green{
+	position: relative;
+	background-color: #1cb79a;
+	z-index: 2;
+	left: 20px;
+	padding: 0;
+	box-shadow: -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+
+.border--green .border__enroll_today,
+.border--blue .border__enroll_today{
+background-color: #3371a6;
+}
+
+
+
+
+
+
+

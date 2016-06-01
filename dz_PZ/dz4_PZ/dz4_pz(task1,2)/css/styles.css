@@ -1,0 +1,92 @@
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+.container{
+text-align: center;
+background-color: #a64dff;
+}
+
+
+.container__menu{	
+	width: 900px;
+	text-transform: uppercase;
+}
+
+
+.container__component{
+	display: inline-block;
+	padding: 5px 32px;
+	font-size: 18px;
+	font-family: impact;
+	color: white;
+}
+
+.container__component:hover{	
+	background-color: #eeeeee;
+	color: #9faabc;	
+}
+
+
+ /*менющка с помощью float 	*/
+
+
+.container--float{
+	text-align: center; /*Почему не центрируется*/
+	background-color: #a64dff;
+}
+
+
+.container--float .container_menu{
+width: 900px;
+text-transform: uppercase;
+}
+
+
+.container--float .container__component{
+	float: left;
+	padding: 5px 34px;
+	list-style: none;
+	font-size: 18px;
+	font-family: impact;
+	color: white;
+}
+
+
+.clearfix:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+
+
+.more{
+	float: left;
+	margin-left: 285px;
+	list-style: none;
+	font-size: 18px;
+	font-family: impact;
+	color: white;
+}
+
+
+.container--float .container__component:hover{
+	background-color: #eeeeee;
+	color: #9faabc;
+}
+
+
+.container--float .container__menu{
+	list-style: none;
+	width: 2000px;
+	text-transform: uppercase;
+}
+
+.more:hover{
+	background-color: #eeeeee;
+	color: #9faabc;
+padding: 5px 15px;	
+}
